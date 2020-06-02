@@ -41,4 +41,4 @@ jobs:
       run: npm install --global surge
       
     - name: Deploy React App to Surge
-      run: surge ./build deploy-react.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build plastic-egg.surge.sh --token ${{ secrets.SURGE_TOKEN }}
